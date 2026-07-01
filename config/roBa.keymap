@@ -88,9 +88,9 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E         &kp R                      &kp T                                                                  &kp Y        &kp U  &lt 5 I    &kp O          &kp P
-&kp A      &kp S           &kp D         &kp F                      &kp G        &kp EXCLAMATION                    &kp COMMA              &kp H        &kp J  &kp K      &kp L          &kp ENTER
-&kp Z      &kp X           &kp C         &kp V                      &kp B        &kp QUESTION                       &kp PERIOD             &kp N        &kp M  &kp MINUS  &kp BACKSPACE  &kp TAB
+&kp Q      &kp W           &kp E         &kp R                      &kp T                                                                  &kp Y        &kp U  &lt 5 I        &kp O      &kp P
+&kp A      &kp S           &kp D         &kp F                      &kp G        &kp EXCLAMATION                    &kp COMMA              &kp H        &kp J  &kp K          &kp L      &kp ENTER
+&kp Z      &kp X           &kp C         &kp V                      &kp B        &kp QUESTION                       &kp PERIOD             &kp N        &kp M  &kp BACKSPACE  &kp MINUS  &kp TAB
 &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt_to_layer_0 2 LEFT_WIN  &lt 3 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &lt 5 INTERNATIONAL_4  &lt 4 SPACE                                   &mt ESCAPE DELETE
             >;
 
@@ -137,7 +137,7 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp UP  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
